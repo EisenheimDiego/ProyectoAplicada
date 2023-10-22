@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Financial.master.cs" Inherits="ProyectoAplicada.Pages.MasterPages.Financial" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../Styles/HumanResources.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="area">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       </div>
+        <nav class="main-menu">
+            <ul>
+                <li>
+                    <img src="https://drive.google.com/uc?export=view&id=1NC6xpWVMN-8pwLMJXpXg6J3kIgKnjqEV" 
+                        alt="E-lectronic Xpress"/>
+                </li>
+               <li>
+                    <div class="divider">
+                </div>
+               </li>
+                <li>
+                    <a href="Home.aspx">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                           Inicio
+                        </span>
+                    </a>
+                  
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-arrow-up fa-2x"></i>
+                        <span class="nav-text">
+                            Reporte de Ingresos
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-arrow-down fa-2x"></i>
+                        <span class="nav-text">
+                            Reporte de Gastos
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-money fa-2x"></i>
+                        <span class="nav-text">
+                            Cuentas Pendientes
+                        </span>
+                    </a>
+                   
+                </li>
+            </ul>
+
+            <ul class="logout">
+                <li>
+                   <a href="#">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            Cerrar Sesiòn
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+    </form>
+</body>
+</html>

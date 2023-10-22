@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HumanResources.master.cs" Inherits="ProyectoAplicada.Pages.MasterPages.HumanResources" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../Styles/HumanResources.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div class="area">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       </div>
+        <nav class="main-menu">
+            <ul>
+                <li>
+                    <img src="https://drive.google.com/uc?export=view&id=1NC6xpWVMN-8pwLMJXpXg6J3kIgKnjqEV" 
+                        alt="E-lectronic Xpress"/>
+                </li>
+               <li>
+                    <div class="divider">
+                </div>
+               </li>
+                <li>
+                    <a href="Home.aspx">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                           Inicio
+                        </span>
+                    </a>
+                  
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-plus-square-o fa-2x"></i>
+                        <span class="nav-text">
+                            Crear Oferta Laboral
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-book fa-2x"></i>
+                        <span class="nav-text">
+                            Revisar Currículums
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-user fa-2x"></i>
+                        <span class="nav-text">
+                            Contratar Personal
+                        </span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-calendar"></i>
+                        <span class="nav-text">
+                            Gestionar Vacaciones
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-star-half-o fa-2x"></i>
+                        <span class="nav-text">
+                           Evaluar Desempeño
+                        </span>
+                    </a>
+                </li>
+                <li>
+                   <a href="#">
+                       <i class="fa fa-clock-o fa-2x"></i>
+                        <span class="nav-text">
+                            Horarios
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout">
+                <li>
+                   <a href="#">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            Cerrar Sesiòn
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+    </form>
+</body>
+</html>
