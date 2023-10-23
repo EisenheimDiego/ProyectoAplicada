@@ -10,7 +10,7 @@
                 <a href="#" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
-                        Redes Sociales
+                        Marketing
                     </div>
                     <div class="ag-courses-item_date-box">
                         Start:

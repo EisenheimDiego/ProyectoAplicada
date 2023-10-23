@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="ag-format-container">
-    <h1>Recursos Humanos</h1>
+    <h1>E-Commerce</h1>
         <div class="ag-courses_box">
             <div class="ag-courses_item">
                 <a href="#" class="ag-courses-item_link">
