@@ -1,0 +1,49 @@
+﻿/* Style for the GridView */
+.custom {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+    /* Style for the GridView header row */
+    .custom th {
+        background-color: #306DF0;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* Style for the GridView data rows */
+    .custom tr {
+        background-color: #f9f9f9;
+    }
+
+        /* Style for alternating rows */
+        .custom tr:nth-child(even) {
+            background-color: #e6e6e6;
+        }
+
+        /* Style for selected row (if applicable) */
+        .custom tr.selected {
+            background-color: #F9B660;
+        }
+
+    /* Style for cell content */
+    .custom td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    /* Hover effect on rows */
+    .custom tr:hover {
+        background-color: #ddd;
+        cursor: pointer;
+    }

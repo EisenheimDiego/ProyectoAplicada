@@ -51,10 +51,9 @@
                             Realizar Pedido de Productos
                         </span>
                     </a>
-                    
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="StockRegisterProduct.aspx">
                        <i class="fa fa-plus-square-o fa-2x"></i>
                         <span class="nav-text">
                             Registro de Productos
