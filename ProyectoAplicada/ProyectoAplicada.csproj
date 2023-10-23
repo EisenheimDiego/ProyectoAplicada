@@ -74,10 +74,13 @@
     <Content Include="Pages\Financial.aspx" />
     <Content Include="Pages\Clients.aspx" />
     <Content Include="Pages\Marketing.aspx" />
+    <Content Include="Pages\StockOrderProducts.aspx" />
+    <Content Include="Pages\StockProducts.aspx" />
     <Content Include="Pages\Stock.aspx" />
     <Content Include="Pages\Styles\Home.css" />
     <Content Include="Pages\Styles\HomeHR.css" />
     <Content Include="Pages\Styles\HumanResources.css" />
+    <Content Include="Pages\Styles\Stock.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +149,20 @@
     </Compile>
     <Compile Include="Pages\Marketing.aspx.designer.cs">
       <DependentUpon>Marketing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StockOrderProducts.aspx.cs">
+      <DependentUpon>StockOrderProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\StockOrderProducts.aspx.designer.cs">
+      <DependentUpon>StockOrderProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StockProducts.aspx.cs">
+      <DependentUpon>StockProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\StockProducts.aspx.designer.cs">
+      <DependentUpon>StockProducts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\MasterPages\Marketing.Master.cs">
       <DependentUpon>Marketing.Master</DependentUpon>

@@ -12,10 +12,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-       <div class="area">
+       
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-       </div>
+       
         <nav class="main-menu">
             <ul>
                 <li>
@@ -36,7 +36,7 @@
                   
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="StockProducts.aspx">
                         <i class="fa fa-list fa-2x"></i>
                         <span class="nav-text">
                             Productos en Stock
@@ -45,10 +45,10 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="StockOrderProducts.aspx">
                        <i class="fa fa-truck fa-2x"></i>
                         <span class="nav-text">
-                            Pedido de Productos
+                            Realizar Pedido de Productos
                         </span>
                     </a>
                     

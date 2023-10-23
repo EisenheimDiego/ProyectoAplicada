@@ -23,7 +23,7 @@
                 <a href="#" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
-                        Pedido de Productos
+                        Realizar Pedido de Productos
                     </div>
                     <div class="ag-courses-item_date-box">
                         Start:
