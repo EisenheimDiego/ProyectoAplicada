@@ -36,7 +36,7 @@
                   
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="ECommProductCatalog.aspx">
                         <i class="fa fa-list fa-2x"></i>
                         <span class="nav-text">
                             Catálogo de Productos
@@ -45,7 +45,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="ECommOnlineOrders.aspx">
                        <i class="fa fa-shopping-cart fa-2x"></i>
                         <span class="nav-text">
                             Pedidos en Línea
@@ -54,7 +54,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="ECommPayments.aspx">
                        <i class="fa fa-credit-card fa-2x"></i>
                         <span class="nav-text">
                             Formas de Pago
