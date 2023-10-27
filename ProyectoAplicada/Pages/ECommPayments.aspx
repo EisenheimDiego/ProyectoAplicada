@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Styles/EComm.css" rel="stylesheet" />
     <link href="Styles/GridView.css" rel="stylesheet" />
-    <%--<link href="Styles/Button.css" rel="stylesheet" />--%>
     <link href="Styles/PaymentCards.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

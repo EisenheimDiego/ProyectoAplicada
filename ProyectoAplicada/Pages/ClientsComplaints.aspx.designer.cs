@@ -11,7 +11,7 @@ namespace ProyectoAplicada.Pages.MasterPages
 {
 
 
-    public partial class Formulario_web19
+    public partial class Formulario_web113
     {
     }
 }

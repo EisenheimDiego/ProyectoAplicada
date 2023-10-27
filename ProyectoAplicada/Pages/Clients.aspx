@@ -7,42 +7,42 @@
         <h1>Clientes</h1>
         <div class="ag-courses_box">
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="ClientsList.aspx" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
                         Clientes del Sistema
                     </div>
                     <div class="ag-courses-item_date-box">
-                        Start:
-                            <span class="ag-courses-item_date">04.11.2022
+                        Descripción:
+                            <span class="ag-courses-item_date">Todos los clientes registrados en el sistema
                             </span>
                     </div>
                 </a>
             </div>
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="ClientsComplaints.aspx" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
                         Quejas y Comentarios
                     </div>
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                Revisión de quejas o comentarios de clientes
                             </span>
                     </div>
                 </a>
             </div>
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="ClientsUsers.aspx" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
                         Usuarios
                     </div>
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                Usuarios asociados a los clientes del sistema
                             </span>
                     </div>
                 </a>

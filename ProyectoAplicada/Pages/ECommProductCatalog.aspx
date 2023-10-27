@@ -13,19 +13,30 @@
                 <label for="">Realizar búsqueda</label>
             </div>
         </div>
-        <div class="gridview-section">
-            <div class="gridview-column">
-                <asp:GridView ID="GridView1" runat="server" CssClass="custom">
-            </asp:GridView>
+        <div class="form-row">
+            <div class="product-card">
+                <img src="https://www.lifewire.com/thmb/ds4GgyRrxfqfVjJfXHhqHJmmo7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/old-monitor-a26df939ca08401c9d48a0f0d1ce0804.jpeg"
+                    alt="Product Image" height="150" width="200">
+                <h2 class="product-title">Monitor 1080p</h2>
+                <p class="product-description">Especial para gaming.</p>
+                <p class="product-price">$500</p>
+                <button class="product-button">Agregar al carrito</button>
             </div>
-            <div class="product-column">
-                <div class="product-card">
-                    <img src="https://i.pinimg.com/originals/10/f7/41/10f7414c0d4984194f5e1316bd61ca0d.png"
-                        alt="Product Image" height="200" width="200">
-                    <h2 class="product-title">Product Name</h2>
-                    <p class="product-description">Product description goes here.</p>
-                </div>
-
+            <div class="product-card">
+                <img src="https://assets.corsair.com/image/upload/f_auto,q_auto/content/CH-9145030-NA-K63-Wireless-NA-01.png"
+                    alt="Product Image" height="140" width="200">
+                <h2 class="product-title">Teclado de gaming</h2>
+                <p class="product-description">Ideal para el Guitar Hero.</p>
+                <p class="product-price">$85</p>
+                <button class="product-button">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.tiendamonge.com/media/catalog/product/c/e/celular-5g-samsung-galaxy-s21-fe-negro-128gb-175868-0-ambas-caras-sellos.jpg"
+                    alt="Product Image" height="200" width="200">
+                <h2 class="product-title">Samsung Galaxy S21</h2>
+                <p class="product-description">Para verte cool cuando llamas.</p>
+                <p class="product-price">$249</p>
+                <button class="product-button">Agregar al carrito</button>
             </div>
         </div>
     </div>

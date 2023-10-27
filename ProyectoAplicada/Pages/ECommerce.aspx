@@ -7,7 +7,7 @@
     <h1>E-Commerce</h1>
         <div class="ag-courses_box">
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="ECommProductCatalog.aspx" class="ag-courses-item_link">
 
                     <div class="ag-courses-item_bg"></div>
 
@@ -16,15 +16,15 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                Productos que se ofrecen actualmente en el sistema
                             </span>
                     </div>
                 </a>
             </div>
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="ECommOnlineOrders.aspx" class="ag-courses-item_link">
 
                     <div class="ag-courses-item_bg"></div>
 
@@ -33,15 +33,15 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                Consulte los pedidos realizados por clientes
                             </span>
                     </div>
                 </a>
             </div>
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="ECommPayments.aspx" class="ag-courses-item_link">
 
                     <div class="ag-courses-item_bg"></div>
 
@@ -50,9 +50,9 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                Administrar formas de pago permitidas en el sistema
                             </span>
                     </div>
                 </a>

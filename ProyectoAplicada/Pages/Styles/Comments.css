@@ -1,0 +1,57 @@
+﻿.comment-list {
+    display: flex; /* Horizontal layout */
+    max-width: 100%;
+    overflow-x: auto; /* Add horizontal scroll if needed */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.comment-item {
+    /*border: 1px solid #ccc;*/
+    /*background: linear-gradient(45deg, #f5f5f5, #e9e9e9);*/
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 10px; /* Spacing between items */
+    min-width: 100px; /* Minimum width for each item */
+}
+
+/* Style for individual comment items */
+.client-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Style for the context of the comment */
+.comment-context {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.comment-emoji {
+    font-size: 24px; /* Adjust the size as needed */
+}
+
+/* Style for the comment or complaint text */
+.comment-text {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Style for the "Read More" button */
+.read-more-button {
+    background: linear-gradient(45deg, #007BFF, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+}
+
+    .read-more-button:hover {
+        background: linear-gradient(45deg, #0056b3, #004999);
+        transform: scale(1.05);
+    }

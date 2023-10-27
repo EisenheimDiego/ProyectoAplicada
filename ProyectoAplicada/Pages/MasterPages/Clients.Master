@@ -36,7 +36,7 @@
                   
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="ClientsList.aspx">
                         <i class="fa fa-user fa-2x"></i>
                         <span class="nav-text">
                             Clientes del Sistema
@@ -45,7 +45,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="ClientsComplaints.aspx">
                        <i class="fa fa-comments fa-2x"></i>
                         <span class="nav-text">
                             Quejas y Comentarios
@@ -54,7 +54,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="#">
+                    <a href="ClientsUsers.aspx">
                        <i class="fa fa-user fa-2x"></i>
                         <span class="nav-text">
                             Usuarios

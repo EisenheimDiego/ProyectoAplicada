@@ -77,17 +77,22 @@
     <Content Include="Pages\ECommProductCatalog.aspx" />
     <Content Include="Pages\ECommPayments.aspx" />
     <Content Include="Pages\ECommOnlineOrders.aspx" />
+    <Content Include="Pages\ClientsList.aspx" />
+    <Content Include="Pages\ClientsComplaints.aspx" />
+    <Content Include="Pages\ClientsUsers.aspx" />
     <Content Include="Pages\StockRegisterProduct.aspx" />
     <Content Include="Pages\StockOrderProducts.aspx" />
     <Content Include="Pages\StockProducts.aspx" />
     <Content Include="Pages\Stock.aspx" />
     <Content Include="Pages\Styles\Button.css" />
+    <Content Include="Pages\Styles\Comments.css" />
     <Content Include="Pages\Styles\EComm.css" />
     <Content Include="Pages\Styles\GridView.css" />
     <Content Include="Pages\Styles\Home.css" />
     <Content Include="Pages\Styles\HomeHR.css" />
     <Content Include="Pages\Styles\HumanResources.css" />
     <Content Include="Pages\Styles\PaymentCards.css" />
+    <Content Include="Pages\Styles\Reporting.css" />
     <Content Include="Pages\Styles\Stock.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -178,6 +183,27 @@
     </Compile>
     <Compile Include="Pages\ECommOnlineOrders.aspx.designer.cs">
       <DependentUpon>ECommOnlineOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientsList.aspx.cs">
+      <DependentUpon>ClientsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientsList.aspx.designer.cs">
+      <DependentUpon>ClientsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientsComplaints.aspx.cs">
+      <DependentUpon>ClientsComplaints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientsComplaints.aspx.designer.cs">
+      <DependentUpon>ClientsComplaints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ClientsUsers.aspx.cs">
+      <DependentUpon>ClientsUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ClientsUsers.aspx.designer.cs">
+      <DependentUpon>ClientsUsers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\StockRegisterProduct.aspx.cs">
       <DependentUpon>StockRegisterProduct.aspx</DependentUpon>

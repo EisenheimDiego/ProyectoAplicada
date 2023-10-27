@@ -7,40 +7,40 @@
         <h1>Existencias</h1>
         <div class="ag-courses_box">
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="StockProducts.aspx" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
                         Productos en Stock
                     </div>
                     <div class="ag-courses-item_date-box">
-                        Start:
-                            <span class="ag-courses-item_date">04.11.2022
+                        Descripción:
+                            <span class="ag-courses-item_date">Listado de productos en bodega
                             </span>
                     </div>
                 </a>
             </div>
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="StockOrderProducts.aspx" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
                         Realizar Pedido de Productos
                     </div>
                     <div class="ag-courses-item_date-box">
-                        Start:
-                            <span class="ag-courses-item_date">04.11.2022
+                        Descripción:
+                            <span class="ag-courses-item_date">Ordenar un producto a una proveedora
                             </span>
                     </div>
                 </a>
             </div>
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="StockRegisterProduct.aspx" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
                     <div class="ag-courses-item_title">
                         Registro de Productos
                     </div>
                     <div class="ag-courses-item_date-box">
-                        Start:
-                            <span class="ag-courses-item_date">04.11.2022
+                        Descripción:
+                            <span class="ag-courses-item_date">Registrar productos nuevos en el sistema
                             </span>
                     </div>
                 </a>

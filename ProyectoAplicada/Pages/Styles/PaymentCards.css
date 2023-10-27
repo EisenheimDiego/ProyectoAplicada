@@ -55,7 +55,7 @@
 }
 
     .activate-button:hover {
-        background-color: #45A049;
+        background-color: #388E3C;
     }
 
 .button {
@@ -84,7 +84,7 @@
         content: "";
         position: absolute;
         inset: 2px;
-        background: #272822;
+        background: #306DF0;
     }
 
     .button span {
