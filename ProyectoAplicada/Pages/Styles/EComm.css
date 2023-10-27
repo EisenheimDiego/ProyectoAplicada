@@ -1,0 +1,234 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    padding: 10px;
+    flex-direction: column;
+    /*background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);*/
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1000px; /* Set the maximum width */
+    width: 100%; /* Make sure it fills the available width */
+    height: 550px; /* Set the height */
+    background: #fff;
+    width: 1000px;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+    .container .form-row {
+        display: flex;
+        margin: 32px 0;
+        justify-content: center;
+    }
+
+.form-row .input-data {
+    width: 50%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+
+.input-data input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+
+    .input-data input:focus ~ label,
+    .input-data input:valid ~ label {
+        transform: translateY(-20px);
+        font-size: 14px;
+        color: #3498db;
+    }
+
+/*
+.input-data label {
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+
+    .input-data .underline:before {
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 100%;
+        background: #3498db;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform 0.3s ease;
+    }
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scale(1);
+}*/
+
+.gridview-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.gridview-column {
+    flex: 1; /* Distribute available space equally between the columns */
+}
+
+.product-column {
+    /*flex: 1;*/ /* Distribute available space equally between the columns */
+    background: #f5f5f5; /* Apply a background color to the product section */
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Product card style */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px; /* Adjust the width as needed */
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #fff;
+}
+
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.product-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f00; /* Adjust the color as needed */
+    margin: 10px 0;
+}
+
+.product-button {
+    display: inline-block;
+    background: #306DF0; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s; /* Add a smooth hover effect */
+}
+
+    .product-button:hover {
+        background: #0099FF; /* Button background color on hover */
+    }
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 10px red;
+    border: 2;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: black;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+}
+
+.select {
+    position: relative;
+    display: flex;
+    width: 15em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+}
+
+.orders-row {
+    display: flex;
+    flex-wrap: wrap; /* Wrap to the next line if there's not enough space */
+    gap: 20px; /* Add some spacing between order cards */
+    justify-content: center;
+}
+
+.order-card {
+    flex: 0 1 calc(33.33% - 20px); /* Adjust the width based on the number of columns you want */
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .order-card:hover {
+        transform: scale(1.03); /* Scale up the card slightly */
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+    }
+
+    /* Add styling to individual order cards as needed */
+    .order-card h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .order-card p {
+        font-size: 16px;
+    }
+
+.view-details-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show a hand cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+    .view-details-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }

@@ -74,15 +74,20 @@
     <Content Include="Pages\Financial.aspx" />
     <Content Include="Pages\Clients.aspx" />
     <Content Include="Pages\Marketing.aspx" />
+    <Content Include="Pages\ECommProductCatalog.aspx" />
+    <Content Include="Pages\ECommPayments.aspx" />
+    <Content Include="Pages\ECommOnlineOrders.aspx" />
     <Content Include="Pages\StockRegisterProduct.aspx" />
     <Content Include="Pages\StockOrderProducts.aspx" />
     <Content Include="Pages\StockProducts.aspx" />
     <Content Include="Pages\Stock.aspx" />
     <Content Include="Pages\Styles\Button.css" />
+    <Content Include="Pages\Styles\EComm.css" />
     <Content Include="Pages\Styles\GridView.css" />
     <Content Include="Pages\Styles\Home.css" />
     <Content Include="Pages\Styles\HomeHR.css" />
     <Content Include="Pages\Styles\HumanResources.css" />
+    <Content Include="Pages\Styles\PaymentCards.css" />
     <Content Include="Pages\Styles\Stock.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -152,6 +157,27 @@
     </Compile>
     <Compile Include="Pages\Marketing.aspx.designer.cs">
       <DependentUpon>Marketing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ECommProductCatalog.aspx.cs">
+      <DependentUpon>ECommProductCatalog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ECommProductCatalog.aspx.designer.cs">
+      <DependentUpon>ECommProductCatalog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ECommPayments.aspx.cs">
+      <DependentUpon>ECommPayments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ECommPayments.aspx.designer.cs">
+      <DependentUpon>ECommPayments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ECommOnlineOrders.aspx.cs">
+      <DependentUpon>ECommOnlineOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ECommOnlineOrders.aspx.designer.cs">
+      <DependentUpon>ECommOnlineOrders.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\StockRegisterProduct.aspx.cs">
       <DependentUpon>StockRegisterProduct.aspx</DependentUpon>
