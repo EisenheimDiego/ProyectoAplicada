@@ -10,25 +10,25 @@
         <div class="form-row">
             <div class="comment-list">
                 <div class="comment-item">
-                    <span class="client-name">Trinity Anderson</span>
-                    <span class="comment-emoji">😃</span>
-                    <p class="comment-text">
+                    <span class="client-name" runat="server" id="name1">Trinity Anderson</span>
+                    <span class="comment-emoji" runat="server" id="emoji1">😃</span>
+                    <p class="comment-text" runat="server" id="com1">
                         Encontré la pantalla que buscaba.
                     </p>
                     <button class="read-more-button">Leer más</button>
                 </div>
                 <div class="comment-item">
-                    <span class="client-name">Jack Dawson</span>
-                    <span class="comment-emoji">😞</span>
-                    <p class="comment-text">
+                    <span class="client-name" runat="server" id="name2">Jack Dawson</span>
+                    <span class="comment-emoji" runat="server" id="emoji2">😞</span>
+                    <p class="comment-text" runat="server" id="com2">
                         Me voy de esta página.
                     </p>
                     <button class="read-more-button">Leer más</button>
                 </div>
                 <div class="comment-item">
-                    <span class="client-name">Patrick Bateman</span>
-                    <span class="comment-emoji">😃</span>
-                    <p class="comment-text">
+                    <span class="client-name" runat="server" id="name3">Patrick Bateman</span>
+                    <span class="comment-emoji" runat="server" id="emoji3">😃</span>
+                    <p class="comment-text" runat="server" id="com3">
                         Excelentes precios.
                     </p>
                     <button class="read-more-button">Leer más</button>
