@@ -9,7 +9,7 @@
     <div class="container">
         <div class="form-row">
             <div class="input-data">
-                <input type="text" required>
+                <input type="text" required runat="server">
                 <div class="underline"></div>
                 <label for="">Buscar</label>
             </div>
@@ -20,13 +20,13 @@
                 </asp:GridView>
             </div>
         </div>
-        <div class="form-row">
+        <%--<div class="form-row">
             <div class="product-card">
                 <img 
                     src="https://www.lifewire.com/thmb/ds4GgyRrxfqfVjJfXHhqHJmmo7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/old-monitor-a26df939ca08401c9d48a0f0d1ce0804.jpeg"
                     alt="Product Image" height="100" width="150">
                 <h2 class="product-title">Monitor 1080p</h2>
             </div>
-        </div>
+        </div>--%>
     </div>
 </asp:Content>

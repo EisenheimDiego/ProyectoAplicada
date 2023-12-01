@@ -9,12 +9,12 @@
                 <div class="form">
                     <div class="form-row">
                         <div class="input-data">
-                            <input type="text" required>
+                            <input type="text" required runat="server" id="code">
                             <div class="underline"></div>
                             <label for="">Código del Producto</label>
                         </div>
                         <div class="input-data">
-                            <input type="text" required>
+                            <input type="text" required runat="server" id="name">
                             <div class="underline"></div>
                             <label for="">Nombre del Producto</label>
                         </div>
@@ -22,38 +22,54 @@
                     <div class="form-row">
                         <div class="input-data">
                             <div class="select">
-                                <asp:DropDownList runat="server">
+                                <asp:DropDownList runat="server" ID="categories">
                                     <asp:ListItem Text="Seleccione una categoría" />
-                                    <asp:ListItem Text="Categoría 1" />
-                                    <asp:ListItem Text="Categoría 2" />
-                                    <asp:ListItem Text="Categoría 3" />
+                                    <asp:ListItem Text="Accesorios" />
+                                    <asp:ListItem Text="Computadoras" />
+                                    <asp:ListItem Text="Componentes" />
+                                    <asp:ListItem Text="Monitores" />
+                                    <asp:ListItem Text="Periféricos" />
                                 </asp:DropDownList>
                             </div>
                         </div>
                         <div class="input-data">
                             <div class="select">
-                                <asp:DropDownList runat="server">
+                                <asp:DropDownList runat="server" ID="subcategories">
                                     <asp:ListItem Text="Seleccione una sub categoría" />
-                                    <asp:ListItem Text="Sub categoría 1" />
-                                    <asp:ListItem Text="Sub categoría 2" />
-                                    <asp:ListItem Text="Sub categoría 3" />
+                                    <asp:ListItem Text="Gaming" />
+                                    <asp:ListItem Text="Oficina" />
+                                    <asp:ListItem Text="Hogar" />
                                 </asp:DropDownList>
                             </div>
                          </div>
                     </div>
                     <div class="form-row">
                         <div class="input-data">
-                            <input type="text" required>
+                            <input type="text" required runat="server" id="description">
                             <div class="underline"></div>
                             <label for="">Descripción</label>
                         </div>
                         <div class="input-data">
-                            <input type="number" step="100" required>
+                            <input type="number" step="100" required runat="server" id="price">
                             <div class="underline"></div>
                             <label for="">Precio</label>
                         </div>
                     </div>
+                    <div class="form-row">
+                        <div class="input-data">
+                            <input type="number" step="1" required runat="server" id="quantity">
+                            <div class="underline"></div>
+                            <label for="">Cantidad</label>
+                        </div>
+                        <div class="input-data">
+                            <input type="text" required runat="server" id="image">
+                            <div class="underline"></div>
+                            <label for="">Imagen</label>
+                        </div>
+                    </div>
                 </div>
             </div>
-                <button style="--clr:#8A2BE2"><span>Confirmar</span><i></i></button>
+                <button style="--clr:#8A2BE2" runat="server" id="btnConfirmar" onserverclick="btnConfirmar_ServerClick">
+                    <span>Confirmar</span><i></i>
+                </button>
 </asp:Content>

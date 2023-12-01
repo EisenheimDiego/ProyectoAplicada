@@ -9,25 +9,28 @@
     <div class="container">
         <div class="form-row">
             <div class="input-data">
-                <input type="text" required>
+                <input type="text" required runat="server" id="name">
                 <div class="underline"></div>
                 <label for="">Nombre</label>
             </div>
             <div class="input-data">
-                <input type="text" required>
+                <input type="text" required runat="server" id="description">
                 <div class="underline"></div>
                 <label for="">Descripción</label>
             </div>
             <div class="input-data">
                 <div class="select">
-                    <asp:DropDownList runat="server">
-                        <asp:ListItem Text="Seleccione el estado" />
-                        <asp:ListItem Text="Activo" />
-                        <asp:ListItem Text="Inactivo" />
+                    <asp:DropDownList runat="server" ID="state">
+                        <asp:ListItem Text="Seleccione el estado"/>
+                        <asp:ListItem Text="Activo"/>
+                        <asp:ListItem Text="Inactivo"/>
                     </asp:DropDownList>
                 </div>
             </div>
-            <button style="--clr:#8A2BE2" class="button"><span>Registrar</span><i></i></button>
+            <button style="--clr:#8A2BE2" class="button" runat="server" 
+                id="btnRegistrar" onserverclick="btnRegistrar_ServerClick">
+                <span>Registrar</span><i></i>
+            </button>
         </div>
     <div class="gridview-section">
         <div class="gridview-column">
