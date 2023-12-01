@@ -13,6 +13,30 @@ namespace ProyectoAplicada.DatabaseAccess
         string connectionString = "Data Source=163.178.173.130;Initial Catalog=PryIFAplicada;" +
             "User ID=basesdedatos;Password=rpbases.2022; Encrypt=False;";
 
+        public DataSet GetClientOrders()
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    DataSet dataSet = new DataSet();
+
+                    using (SqlDataAdapter dataAdapter = new SqlDataAdapter())
+                    {
+                        dataAdapter.SelectCommand = new SqlCommand("GetClientOrders", connection);
+                        dataAdapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+                        dataAdapter.Fill(dataSet);
+                    }
+                    return dataSet;
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+        }
+
         public DataSet GetPaymentMethods()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
