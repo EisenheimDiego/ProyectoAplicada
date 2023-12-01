@@ -17,9 +17,9 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                ...
                             </span>
                     </div>
                 </a>
@@ -33,9 +33,9 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                ...
                             </span>
                     </div>
                 </a>
@@ -49,9 +49,9 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                ...
                             </span>
                     </div>
                 </a>
@@ -65,9 +65,9 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                ...
                             </span>
                     </div>
                 </a>
@@ -81,9 +81,9 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                ...
                             </span>
                     </div>
                 </a>
@@ -96,9 +96,9 @@
                     </div>
 
                     <div class="ag-courses-item_date-box">
-                        Start:
+                        Descripción:
                             <span class="ag-courses-item_date">
-                                04.11.2022
+                                ...
                             </span>
                     </div>
                 </a>
